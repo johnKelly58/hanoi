@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
-
 '''
 hanoi.py 
   script to solve the tower of Hanoi problem
 '''
 
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-n', '--number',
+        dest='number',
+        help='Number of disks to move',
+        type=int
+        )
+
+args = parser.parse_args()
+n = args.number
 
 def moveDisk(A,B) :
     '''
@@ -25,7 +36,6 @@ def solveHanoi(n,f,h,t) :
         pass
 
 if __name__ == "__main__" :
-#    moveDisk("R","K")
-    solveHanoi(3,"Source", "Helper", "Destination")
+    solveHanoi(n,"S", "H", "D")
 
 
