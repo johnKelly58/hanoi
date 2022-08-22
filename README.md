@@ -1,4 +1,5 @@
 ### hanoi.py
 
 Tower of Hanoi implementation in python. 
-It doesn't work yet, but what do I care.
+
+Simple implementation but so far so good.
