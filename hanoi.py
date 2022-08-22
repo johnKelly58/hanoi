@@ -26,6 +26,6 @@ def solveHanoi(n,f,h,t) :
 
 if __name__ == "__main__" :
 #    moveDisk("R","K")
-    solveHanoi(4, "F", "H", "T")
+    solveHanoi(3,"Source", "Helper", "Destination")
 
 
