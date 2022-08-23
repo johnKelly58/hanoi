@@ -27,7 +27,15 @@ n = args.number
 if args.usage:
     print('''
     This is a towers of Hanoi program. 
-    It show how to move disks between towers so 
+    There are 3 towers, "S", "D" and "H".
+    Source, Destination and Helper.
+    There are a variable number of disks.
+    The start position has all the disks on the
+    "S" tower.
+    The end position has all the disks on the 
+    "D" tower. 
+    Disks are moved via the "H" tower. 
+    It shows how to move disks between towers so 
     that smaller disks are always on top of 
     bigger disks. 
     ''')
